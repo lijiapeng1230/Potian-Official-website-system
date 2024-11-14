@@ -8,7 +8,10 @@
 积极的帮助我发现并改进漏洞，谢谢大家了！
 
 ## 核心文件说明
-
+###
+1.0.1BUG
+- 管理员密码修改，在phpadmin执行以下 SQL
+- UPDATE users SET password = '$2y$10$3PGqpkNpVJ2yXrXMwbvfkOHOPOGLEGY0AQhXdVUieGg8G6Qm8gEuy' WHERE username = 'admin';
 ### 1. index.php
 - 网站主页文件
 - 功能：
@@ -65,7 +68,7 @@
 3. 默认管理员账号：
    - 用户名：admin
    - 邮箱：admin@xctcn.cn
-   - 密码：admin
+   - 密码：123456
 4. 了解前端开发的可以熟悉index.php：
    - 修改相应HTML语句部分
    - 或者直接修改文字
