@@ -9,9 +9,7 @@
 
 ## 核心文件说明
 ###
-1.0.1BUG
-- 管理员密码修改，在phpadmin执行以下 SQL
-- UPDATE users SET password = '$2y$10$3PGqpkNpVJ2yXrXMwbvfkOHOPOGLEGY0AQhXdVUieGg8G6Qm8gEuy' WHERE username = 'admin';
+
 ### 1. index.php
 - 网站主页文件
 - 功能：
@@ -122,6 +120,11 @@
    - 定期清理日志
    - 优化数据库索引
    - 监控系统负载
+
+## 历代BUG及其修复教程
+1.0.1BUG
+- 管理员密码修改，在phpadmin执行以下 SQL
+- UPDATE users SET password = '$2y$10$3PGqpkNpVJ2yXrXMwbvfkOHOPOGLEGY0AQhXdVUieGg8G6Qm8gEuy' WHERE username = 'admin';
 
 ## 技术支持
 
